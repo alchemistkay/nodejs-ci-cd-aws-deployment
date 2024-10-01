@@ -1,4 +1,4 @@
-# DevOps Portfolio: NodeJS CI/CD Pipeline with Jenkins
+# DevOps Portfolio: NodeJS CI/CD Pipeline with Jenkins, Docker, and AWS Deployment
 
 Welcome to my **DevOps Portfolio**! This repository showcases my work on implementing a full **CI/CD pipeline** for a **NodeJS application** using **Jenkins**, **Docker**, and **AWS**. It demonstrates my ability to integrate various DevOps tools and best practices to automate application deployment and infrastructure management.
 
