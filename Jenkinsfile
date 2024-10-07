@@ -78,11 +78,11 @@ pipeline {
             }
         }
         stage('commit version update') {
-            // when {
-            //     expression {
-            //         return env.GIT_BRANCH == "main"
-            //     }
-            // }
+            when {
+                expression {
+                    return env.GIT_BRANCH == "main"
+                }
+            }
             steps {
                 script {
                     sshagent (credentials: ['github-ssh-credentials']) {
