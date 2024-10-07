@@ -58,7 +58,7 @@ pipeline {
                 }
             }
         }
-        stage('deploy to EC2') {
+        stage('deployment to EC2') {
             when {
                 expression {
                     return env.GIT_BRANCH == "main"
